@@ -1,8 +1,40 @@
+:root{
+  --primary-color:#1c2321;
+  --secondary-color:#EEF1EF;
+  --accent-color:#9E0031;
+  --other-color:#A9B4C2;
+  --other-two:#5E6572;
+
+}
 h1{
   font-family: "Lexend",serif;
   font-weight: 800;
+  font-size:70px;
 }
-p{
+.hero{
+  padding:160px 20px;
+  color: var(--other-two);
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+.hero h3{
   font-family: "Poppins", serif;
-    font-weight: 400
+    font-weight: 400;
+    font-size:18px;
+}
+.btn-contact-button{
+  color:var(--secondary-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 200ms ease-in-out;
+}
+.btn-contact-button:hover{
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  background: var(--secondary-color);
+  text-decoration: none;
+  cursor: pointer;
 }
