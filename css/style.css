@@ -11,16 +11,30 @@ h1{
   font-weight: 800;
   font-size:70px;
 }
+h2{
+  color: var(--primary-color);
+  font-family: "Lexend", serif;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+p{
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .hero{
-  padding:160px 20px;
+  padding:130px 20px;
   color: var(--other-two);
   background-color: var(--secondary-color);
   text-align: center;
 }
 .hero h3{
   font-family: "Poppins", serif;
-    font-weight: 400;
-    font-size:18px;
+  font-weight: 600;
+  font-size:18px;
 }
 .btn-contact-button{
   color:var(--secondary-color);
@@ -37,4 +51,16 @@ h1{
   background: var(--secondary-color);
   text-decoration: none;
   cursor: pointer;
+}
+.project-description{
+  background-color: var(--secondary-color);
+  padding:105px 20px;
+}
+
+@media (max-width:960px) {
+  .project-description{
+text-align: center;
+  }
+
+  
 }
