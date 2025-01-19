@@ -10,6 +10,7 @@ h1{
   font-family: "Lexend",serif;
   font-weight: 800;
   font-size:70px;
+  line-height: 1.5;
 }
 h2{
   color: var(--primary-color);
@@ -26,7 +27,7 @@ p{
 }
 
 .hero{
-  padding:130px 20px;
+  padding:160px 20px;
   color: var(--other-two);
   background-color: var(--secondary-color);
   text-align: center;
@@ -54,12 +55,20 @@ p{
 }
 .project-description{
   background-color: var(--secondary-color);
-  padding:105px 20px;
+  padding:106px 20px;
 }
 
 @media (max-width:960px) {
   .project-description{
 text-align: center;
+padding:5px;
+  
+  }
+  .project-description h2{
+    font-size:28px ;
+  }
+  h1{
+    font-size:42px;
   }
 
   
