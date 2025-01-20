@@ -7,6 +7,7 @@
 
 }
 h1{
+  color: var(--primary-color);
   font-family: "Lexend",serif;
   font-weight: 800;
   font-size:70px;
@@ -16,30 +17,30 @@ h2{
   color: var(--primary-color);
   font-family: "Lexend", serif;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 28px;
+  line-height: 1.5;
 }
 
 p{
+  color: var(--other-two);
   font-family: "Poppins", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-}
 
+}
 .hero{
   padding:160px 20px;
-  color: var(--other-two);
   background-color: var(--secondary-color);
   text-align: center;
-}
-.hero h3{
   font-family: "Poppins", serif;
   font-weight: 600;
-  font-size:18px;
+  font-size: 18px;
 }
 .btn-contact-button{
   color:var(--secondary-color);
   background-color: var(--accent-color);
+  font-family: "Poppins", serif;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -55,21 +56,39 @@ p{
 }
 .project-description{
   background-color: var(--secondary-color);
-  padding:106px 20px;
+  padding:110px 20px;
+}
+
+.about-section{
+  background: var(--secondary-color);
+  padding:100px 20px;
+  margin: 30px;
+}
+.about-section h1{
+  font-size: 50px;
 }
 
 @media (max-width:960px) {
   .project-description{
 text-align: center;
 padding:5px;
-  
+}
+h1{
+    font-size:36px;
   }
-  .project-description h2{
-    font-size:28px ;
+h2{
+    font-size:18px;
+    line-height: 1.5;
   }
-  h1{
-    font-size:42px;
+p{
+  font-size: 14px;
+}
+.about-section {
+  text-align: center;
+padding:5px;
   }
-
-  
+.btn-contact-button{
+  font-size: 12px;
+  padding: 10px 8px;
+}
 }
