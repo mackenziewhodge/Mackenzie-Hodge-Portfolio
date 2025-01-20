@@ -6,13 +6,13 @@
   --other-two:#5E6572;
 
 }
-h1{
-  color: var(--primary-color);
-  font-family: "Lexend",serif;
-  font-weight: 800;
-  font-size:70px;
-  line-height: 1.5;
-}
+ h1 {
+   font-size: 50px;
+   color: var(--primary-color);
+   font-family: "Lexend", serif;
+   font-weight: 800;
+   line-height: 1.5;
+ }
 h2{
   color: var(--primary-color);
   font-family: "Lexend", serif;
@@ -59,15 +59,22 @@ p{
   padding:110px 20px;
 }
 
-.about-section{
+.content{
   background: var(--secondary-color);
   padding:100px 20px;
   margin: 30px;
 }
-.about-section h1{
-  font-size: 50px;
-}
 
+.hire-section{
+ background: var(--secondary-color);
+ padding: 60px 20px;
+ margin: 30px;
+}
+.hire-section-content{
+  display: flex;
+  justify-content: space-between;
+
+}
 @media (max-width:960px) {
   .project-description{
 text-align: center;
@@ -83,12 +90,19 @@ h2{
 p{
   font-size: 14px;
 }
-.about-section {
-  text-align: center;
+.content {
+text-align: center;
 padding:5px;
   }
 .btn-contact-button{
   font-size: 12px;
   padding: 10px 8px;
+}
+.hire-section{
+  margin: 30px;
+}
+
+.project-description{
+  margin: 30px;
 }
 }
